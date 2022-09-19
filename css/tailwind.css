@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.task-list-item::before {
+  @apply hidden;
+}
+
+.task-list-item {
+  @apply list-none;
+}
+
+html {
+  scroll-behavior: smooth;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+/* https://stackoverflow.com/questions/61083813/how-to-avoid-internal-autofill-selected-style-to-be-applied */
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+  transition: background-color 600000s 0s, color 600000s 0s;
+}
+
+.underline-magical {
+  @apply bg-gradient-to-r from-primary-500 to-primary-700 bg-no-repeat [background-position:0_100%]
+    [background-size:100%_0.2em]
+    hover:[background-size:100%_100%] no-underline hover:text-white
+    focus:[background-size:100%_100%] motion-safe:transition-all
+    motion-safe:duration-300
+    dark:from-primary-500
+    dark:to-primary-700;
+}
+
+.horizontal-underline {
+  border-bottom-width: 0;
+  background-image: linear-gradient(transparent, transparent), linear-gradient(#c1272d	, #006233);
+  background-size: 0 3px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.5s ease-in-out;
+}
+
+.horizontal-underline:hover {
+  background-size: 100% 3px;
+  background-position: 0 100%;
+}
+
+.horizontal-underline-active {
+  background-size: 100% 3px;
+  background-position: 0 100%;
+}
+
+#nprogress .bar {
+  background: #c1272d !important;
+  height: 4px !important;
+}
+
+.introText {
+  transition: opacity 0.4s;
+}
