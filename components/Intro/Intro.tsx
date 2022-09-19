@@ -57,7 +57,7 @@ export default function Intro() {
             className="introText inline-block"
             style={{ opacity: opacityForBlock(progress, 3) }}
           >
-            We DEMAND Our Rightful Independence From The Cultural French Shackles, For Us And Future Generations To Be Able To Truly Be Able To Be One With The World, And Not Be Forced To Have France As A proxy For Our International Relations And Opportunities
+            We DEMAND Our Rightful Independence From The Cultural French Shackles, For Us And Future Generations To Truly Be Able To Be One With The World, And Not Be Forced To Have France As A proxy For Our International Relations And Opportunities
           </span>
           <span
             className="introText inline-block"
