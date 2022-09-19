@@ -1,1 +1,0 @@
-### Thanks To dalelarroder.com for the Template
