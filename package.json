@@ -20,12 +20,14 @@
     "esbuild": "0.14.47",
     "framer-motion": "7.1.0",
     "github-slugger": "1.4.0",
+    "global": "^4.4.0",
     "logrocket": "3.0.1",
     "mdx-bundler": "9.0.1",
     "next": "12.2.5",
     "next-contentlayer": "0.2.7",
     "next-themes": "0.2.0",
     "nprogress": "0.2.0",
+    "nvm": "^0.0.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "4.4.0",
@@ -72,5 +74,8 @@
     "*.+(js|jsx|ts|tsx|json|css|md|mdx)": [
       "prettier --write"
     ]
+  },
+  "engines": {
+    "node": ">=14.18"
   }
 }
