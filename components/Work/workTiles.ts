@@ -20,7 +20,7 @@ export const workTiles: WorkTile[] = [
   },
   {
     description: 'Our Ancestors Died, Raped, Enslaved, Imprisoned, Slaughtered and Dehumanized For Our Freedom',
-    title: 'We Shall Not Let Their Sacrifice Goes In Vain',
+    title: 'We Shall Not Let Their Sacrifice Goe In Vain',
     image: {
       src: '/static/images/morocco_vs_france.png',
       width: 1200,
